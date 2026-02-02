@@ -1,13 +1,16 @@
-import Student from "./Student";
+import React from "react";
+import "./App.css";
+import SubjectList from "./SubjectList";
+import Counter from "./component/Counter";
 
 function App() {
-  return (
-    <div style={{ padding: 20 }}>
-      <h1>Demo Function Component + Props</h1>
+  const subjects = ["ReactJS", "NodeJS", "Java", "Database"];
 
-      <Student name="Thuan Lam" age={20} className="CNTTK18" />
-      <Student name="Nguyễn Văn A" age={22} className="CNTTK17" />
-      <Student name="Lê Thị B" age={19} className="CNTTK19" />
+  return (
+    <div className="app-container">
+      <h1>Ứng dụng ReactJS</h1>
+      <SubjectList subjects={subjects} />
+      <Counter />
     </div>
   );
 }

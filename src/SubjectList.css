@@ -1,0 +1,35 @@
+.subject-container {
+  width: 320px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9fbff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.subject-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.subject-list {
+  list-style: none;
+  padding: 0;
+}
+
+.subject-item {
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  background-color: #eaf2ff;
+  border-left: 5px solid #4a90e2;
+  border-radius: 6px;
+  color: #333;
+  font-size: 15px;
+}
+
+.subject-item:hover {
+  background-color: #dce9ff;
+  cursor: pointer;
+}
